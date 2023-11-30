@@ -1,0 +1,28 @@
+
+
+.container {
+text-align: center;
+display: grid;
+grid-template-columns: 1fr 3fr 1fr;
+}
+
+
+.header{
+    border-style: solid;
+}
+
+.dash{
+    border-style: solid;
+}
+
+.projects{    
+    border-style: solid;
+}
+
+.announce{    
+    border-style: solid;
+}
+
+.trends{
+    border-style: solid;
+}
