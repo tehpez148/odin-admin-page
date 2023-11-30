@@ -1,7 +1,6 @@
 
 
 .container {
-text-align: center;
 display: grid;
 grid-template-columns: 1fr 3fr 1fr;
 gap:5px;
@@ -11,6 +10,15 @@ gap:5px;
 .header{
     border-style: solid;
     grid-column: 2/6;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+}
+
+#search{
+    border-style:inset;
+    border-radius: 10px;
 }
 
 .dash{
@@ -20,7 +28,8 @@ gap:5px;
 
 .projects{    
     border-style: solid;
-    grid-row: 2/6
+    grid-row: 2/6;
+    display: grid;
 }
 
 .announce{    
