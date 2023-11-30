@@ -30,6 +30,8 @@ gap:5px;
     border-style: solid;
     grid-row: 2/6;
     display: grid;
+    grid-template: 1fr 1fr 1fr/ 1fr 1fr;
+    gap: 8px;
 }
 
 .announce{    
