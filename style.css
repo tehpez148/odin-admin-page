@@ -10,7 +10,7 @@ body{
 
 .container {
 display: grid;
-grid-template-columns: 1fr 3fr 1fr;
+grid-template-columns: 1fr 3fr;
 gap:5px;
 }
 
@@ -22,6 +22,7 @@ gap:5px;
     grid-template-rows: 1fr 2fr;
     grid-template-columns: 1fr 1fr;
     gap:10px;
+    margin-left:none;
 
 }
 
@@ -34,6 +35,7 @@ gap:5px;
     grid-row:1/6;
     background-color: cadetblue;
     padding-left: 10px;
+    margin-right: none;
 }
 
 .dash img{
@@ -43,16 +45,33 @@ gap:5px;
 .dash>div{
     display: flex;
 }
+
+.contents{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 10px;
+    gap:10px;
+}
 .projects{    
     grid-row: 2/6;
     display: grid;
     grid-template: 1fr 1fr 1fr/ 1fr 1fr;
-    gap: 8px;
+    gap: 20px;
 }
 
-.announce{    
+.projects>div{
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+
+
+.announce{ 
+    grid-column-start: 2;
+    height: 50%;
 }
 
 .trends{
-    grid-row-start: 3;
+    grid-column-start: 2;
 }
