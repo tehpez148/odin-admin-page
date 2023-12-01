@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body{
+    min-height: 100vh;
+    margin: 0;
     font-family: 'Roboto', sans-serif;
+    background-color: #354f60;
+    color: white;
 }
 
 .container {
@@ -12,12 +16,13 @@ gap:5px;
 
 
 .header{
-    border-style: solid;
+    background-color: #421e22;
     grid-column: 2/6;
     display: grid;
     grid-template-rows: 1fr 2fr;
     grid-template-columns: 1fr 1fr;
     gap:10px;
+
 }
 
 #search{
@@ -26,8 +31,9 @@ gap:5px;
 }
 
 .dash{
-    border-style: solid;
     grid-row:1/6;
+    background-color: cadetblue;
+    padding-left: 10px;
 }
 
 .dash img{
@@ -38,7 +44,6 @@ gap:5px;
     display: flex;
 }
 .projects{    
-    border-style: solid;
     grid-row: 2/6;
     display: grid;
     grid-template: 1fr 1fr 1fr/ 1fr 1fr;
@@ -46,10 +51,8 @@ gap:5px;
 }
 
 .announce{    
-    border-style: solid;
 }
 
 .trends{
-    border-style: solid;
     grid-row-start: 3;
 }
