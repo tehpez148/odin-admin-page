@@ -27,7 +27,9 @@ grid-template-columns: 1fr 3fr;
     height: 30vh;
 }
 
- 
+ .header img{
+    width: 40px;
+ }
 
 #search{
     display: flex;
@@ -61,6 +63,7 @@ grid-template-columns: 1fr 3fr;
 #gitlink{
     display: flex;
     align-items: flex-end;
+    justify-content: space-evenly;
 }
 
 #buttons{
@@ -89,10 +92,14 @@ grid-template-columns: 1fr 3fr;
     margin-right: 0;
     font-weight: bold;
 }
+.dash>div{}
+
 
 .dash img{
     width: 40px;
 }
+
+
 
 .dash>div{
     display: flex;
