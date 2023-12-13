@@ -145,13 +145,50 @@ grid-template-columns: 1fr 3fr;
 
 
 
+#anntren{
+    display: grid;
+    gap:10px;
 
+}
 
 .announce{ 
     grid-column-start: 2;
     height: 50%;
+    
+}
+
+.announce p{
+    font-size: 10px;
+}
+
+#abox{
+    background-color: white;
+    padding:32px;
+    border-radius: 10px;
 }
 
 .trends{
     grid-column-start: 2;
+}
+
+.trends p{
+    font-size: 14px;
+}
+
+#tbox{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding:20px;
+    border-radius: 10px;
+}
+
+#tbox>div{
+    display: flex;
+}
+
+.trends img{
+    height: 40px;
+    width:40px;
 }
