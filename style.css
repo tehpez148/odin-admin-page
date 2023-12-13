@@ -41,12 +41,12 @@ grid-template-columns: 1fr 3fr;
 #search img{
     width:40px
 }
-#search p{
-    border-style:inset;
+#search input{
     border-radius: 10px;
     height: 20px;
     width: 70%;
     background-color: lightgrey;
+    padding-left: 10px;
 }
 
 #welcome{
@@ -82,7 +82,7 @@ grid-template-columns: 1fr 3fr;
 }
 
 #buttons>button:hover{
-    box-shadow:  6px 8px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+    box-shadow:  4px 6px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
 
 }
 
@@ -94,7 +94,7 @@ grid-template-columns: 1fr 3fr;
     font-weight: bold;
     color:antiquewhite;
 }
-.dash>div{}
+
 
 
 .dash img{
@@ -124,6 +124,7 @@ grid-template-columns: 1fr 3fr;
     color: black;
     background-color: white;
     border-radius: 10px;
+    border-left: 10px solid cornflowerblue;
 }
 
 
